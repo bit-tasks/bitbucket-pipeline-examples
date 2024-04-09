@@ -1,0 +1,11 @@
+image: bitsrc/stable:latest
+
+pipelines:
+  pull-requests:
+     '**':
+      - step:
+          name: Build on Pull Request
+          script:
+            - cd my-workspace-dir
+            - bitbucket.bit.init
+            - bitbucket.bit.pull-request

@@ -1,0 +1,11 @@
+image: bitsrc/stable:latest
+
+pipelines:
+  custom:
+    scheduled-dependency-update:
+      - step:
+          name: Scheduled Dependency Update
+          script:
+            - cd my-workspace-dir
+            - bitbucket.bit.init
+            - gitlab.bit.dependency-update --allow "all" --branch "main"

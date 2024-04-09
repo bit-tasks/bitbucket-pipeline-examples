@@ -1,0 +1,10 @@
+image: bitsrc/stable:latest
+
+pipelines:
+  branches:
+    main:
+      - step:
+          name: build
+          script:
+            - cd my-workspace-dir
+            - bitbucket.bit.init

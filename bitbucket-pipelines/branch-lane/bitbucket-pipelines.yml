@@ -1,0 +1,9 @@
+image: bitsrc/stable:latest
+
+pipelines:
+  default:
+    - step:
+        name: build
+        script:
+          - cd my-workspace-dir
+          - bitbucket.bit.branch-lane

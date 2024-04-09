@@ -1,0 +1,12 @@
+image: bitsrc/stable:latest
+
+pipelines:
+  branches:
+    main:
+      - step:
+          name: build
+          script:
+            - cd my-workspace-dir
+            - bitbucket.bit.init
+            - bitbucket.bit.commit-bitmap # User commit-bitmap prior to tag-export
+            - bitbucket.bit.tag-export

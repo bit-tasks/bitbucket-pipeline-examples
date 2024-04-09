@@ -1,0 +1,16 @@
+image: bitsrc/stable:latest
+
+pipelines:
+  branches:
+    main:
+      - step:
+          name: build
+          script:
+            - |
+              if [[ $(git log -1 --pretty=%B) =~ "[PR Merged]" ]]; then
+                cd my-workspace-dir
+                bitbucket.bit.init
+                bitbucket.bit.lane-cleanup
+              else
+                echo "Skipping, as this is not a PR merge commit."
+              fi
