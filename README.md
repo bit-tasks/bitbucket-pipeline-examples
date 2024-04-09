@@ -21,7 +21,7 @@ Leverage seamless integration of Bitbucket support through the [Bit Docker image
 2. **Workspace Navigation:** Move to the appropriate directory if your workspace isn't at the root of your Git repository. For instance, use `cd ws-dir`.
 3. **Script Initialization:** Begin with `bitbucket.bit.init`, as subsequent scripts will depend on it.
 4. **CI/CD Variables Setup:** Define new CI/CD variables like:
-   - `BITBUCKET_TOKEN`: Your Bitbucket [App Password](https://support.atlassian.com/bitbucket-cloud/docs/app-passwords/) with appropriate permissions.
+   - `BITBUCKET_ACCESS_TOKEN`: Your Bitbucket [App Password](https://support.atlassian.com/bitbucket-cloud/docs/app-passwords/) with appropriate permissions.
    - `BIT_CLOUD_ACCESS_TOKEN`: You need `BIT_CLOUD_ACCESS_TOKEN` ([docs](https://bit.dev/reference/ci/bitbucket-pipelines#generating-an-access-token)).
    - `GIT_USER_NAME`
    - `GIT_USER_EMAIL`
