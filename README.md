@@ -62,7 +62,7 @@ Ensure these variables are correctly configured within your Bitbucket Pipelines.
 
 ## Contributor Guide
 
-To contribute, make updates to scripts starting with `gitlab.bit.` in the [Bit Docker Image Repository](https://github.com/bit-tasks/bit-docker-image).
+To contribute, make updates to scripts starting with `bitbucket.bit.` in the [Bit Docker Image Repository](https://github.com/bit-tasks/bit-docker-image).
 
 To create zip files use the below commands.
 
