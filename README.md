@@ -67,5 +67,5 @@ To contribute, make updates to scripts starting with `bitbucket.bit.` in the [Bi
 To create zip files use the below commands.
 
 ```bash
-chmod +x zip_files.sh
-bash zip_files.sh
+chmod +x zip-files.sh
+bash zip-files.sh
