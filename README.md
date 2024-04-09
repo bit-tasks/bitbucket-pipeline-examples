@@ -41,7 +41,7 @@ Ensure these variables are correctly configured within your Bitbucket Pipelines.
 | Bit Lane Cleanup        | [lane-cleanup/bitbucket-pipelines.yml](/bitbucket-pipelines/lane-cleanup/bitbucket-pipelines.yml) |
 | Commit Bitmap           | [commit-bitmap/bitbucket-pipelines.yml](/bitbucket-pipelines/commit-bitmap/bitbucket-pipelines.yml) |
 
-  :arrow_down: [Download Files](https://github.com/bit-tasks/bitbucket-action-examples/raw/main/downloads/automating-component-releases.zip)
+  :arrow_down: [Download Files](https://github.com/bit-tasks/bitbucket-pipeline-examples/raw/main/downloads/automating-component-releases.zip)
 
 ### Update Workspace Components, External Dependencies and Envs
 
@@ -49,7 +49,7 @@ Ensure these variables are correctly configured within your Bitbucket Pipelines.
 |-----------------------------|---------------------------------|
 | Dependency Update           | [dependency-update/bitbucket-pipelines.yml](/bitbucket-pipelines/dependency-update/bitbucket-pipelines.yml)   |
 
-  :arrow_down: [Download Files](https://github.com/bit-tasks/bitbucket-action-examples/raw/main/downloads/dependency-update.zip)
+  :arrow_down: [Download Files](https://github.com/bit-tasks/bitbucket-pipeline-examples/raw/main/downloads/dependency-update.zip)
 
 ### Sync Git Branches with Bit Lanes
 
@@ -57,7 +57,7 @@ Ensure these variables are correctly configured within your Bitbucket Pipelines.
 |-----------------------------|---------------------------------|
 | Branch Lane                 | [branch-lane/bitbucket-pipelines.yml](/bitbucket-pipelines/branch-lane/bitbucket-pipelines.yml)  |
 
-  :arrow_down: [Download Files](https://github.com/bit-tasks/bitbucket-action-examples/raw/main/downloads/branch-lane.zip)
+  :arrow_down: [Download Files](https://github.com/bit-tasks/bitbucket-pipeline-examples/raw/main/downloads/branch-lane.zip)
 
 
 ## Contributor Guide
