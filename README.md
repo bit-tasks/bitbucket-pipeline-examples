@@ -59,6 +59,31 @@ Ensure these variables are correctly configured within your Bitbucket Pipelines.
 
   :arrow_down: [Download Files](https://github.com/bit-tasks/bitbucket-pipeline-examples/raw/main/downloads/branch-lane.zip)
 
+## Setup PNPM Caching
+You can speed up the CI builds by caching `pnpm store`.
+
+```
+image: bitsrc/stable:latest
+
+definitions:
+  caches:
+    pnpm: $BITBUCKET_CLONE_DIR/.pnpm-store
+    
+pipelines:
+  branches:
+    main:
+      - step:
+          name: Bit Verify
+          script:
+            - cd test-ws
+            - bitbucket.bit.init
+            - bitbucket.bit.verify
+          caches:
+            - pnpm
+```
+
+**Note:** Replace the directory `test-ws` with your workspace directory.
+
 
 ## Contributor Guide
 
