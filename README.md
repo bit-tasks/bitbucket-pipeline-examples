@@ -67,7 +67,7 @@ image: bitsrc/stable:latest
 
 definitions:
   caches:
-    pnpm: $BITBUCKET_CLONE_DIR/.pnpm-store
+    pnpm: test-ws/.pnpm-store 
     
 pipelines:
   branches:
