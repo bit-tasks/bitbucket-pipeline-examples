@@ -1,0 +1,11 @@
+image: bitsrc/stable:latest
+
+pipelines:
+  branches:
+    main:
+      - step:
+          name: build
+          script:
+            - cd my-workspace-dir
+            - bitbucket.bit.init --skip-install
+            - bitbucket.bit.lane-branch --lane-name "$LANE_NAME"
