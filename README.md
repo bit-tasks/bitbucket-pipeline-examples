@@ -56,6 +56,7 @@ Ensure these variables are correctly configured within your Bitbucket Pipelines.
 | Task                        | Example                         |
 |-----------------------------|---------------------------------|
 | Branch Lane                 | [branch-lane/bitbucket-pipelines.yml](/bitbucket-pipelines/branch-lane/bitbucket-pipelines.yml)  |
+| Lane Branch                 | [lane-branch/bitbucket-pipelines.yml](/bitbucket-pipelines/lane-branch/bitbucket-pipelines.yml)  |
 
   :arrow_down: [Download Files](https://github.com/bit-tasks/bitbucket-pipeline-examples/raw/main/downloads/branch-lane.zip)
 
